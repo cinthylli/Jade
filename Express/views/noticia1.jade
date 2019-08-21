@@ -1,0 +1,29 @@
+html
+    head
+        title #{title} 
+        meta(charset='utf')
+        meta( name='viewport', content='width=device-width, initial-scale=1' )
+        link(rel='stylesheet', href='/css/estilos.css')
+    body
+        div.princ
+            ul 
+                li
+                    a(href='/') HOME
+                li
+                    a(href='/acerca') NOSOTROS
+                li
+                    a(href='/noticia1') TECNOLOGÍA
+                li
+                    a(href='/noticia2') DEPORTES - CICLISMO
+                li
+                    a(href='/noticia3') SALUD
+                li
+                    a(href='/noticia4') DEPORTES - FUTBOL
+                li
+                    a(href='/noticia5') COLOMBIA
+            main
+                div.contenedor Te presentamos las noticias de Colombia y el Mundo
+                    h1 #{noticias[0].titulo}
+                    img #{noticias[0].imagen}
+                    h2 #{noticias[0].subtitulo}
+                    p #{noticias[0].contenido}
