@@ -1,0 +1,25 @@
+{
+  "name": "noticias",
+  "version": "1.0.0",
+  "description": "Pagina de Noticias",
+  "main": "lecturaJade.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jade": "^1.11.0",
+    "morgan": "^1.9.1",
+    "pug": "^2.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "cinthylli"
+  },
+  "keywords": [
+    "Noticias"
+  ],
+  "author": "Cinthya Cabanzo",
+  "license": "MIT"
+}
